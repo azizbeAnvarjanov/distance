@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { getDistance } from "geolib";
 
 const officeLocation = {
-  latitude: 40.930184, // O'zgarishi mumkin
-  longitude: 71.8928932, // O'zgarishi mumkin
+  latitude: 40.930132004651966, // O'zgarishi mumkin
+  longitude: 71.89369133470575, // O'zgarishi mumkin
 };
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Xodim joylashuvi</h1>
+      <h1>Xodim joylashuvi azizbek</h1>
       <p>
         <strong>Status:</strong> {status}
       </p>
