@@ -23,7 +23,7 @@ export default function Home() {
 
           setDistance(distance);
           setStatus(
-            distance <= 100 ? "Siz ishxonadasiz" : "Siz ishxonada emassiz"
+            distance <= 10 ? "Siz ishxonadasiz" : "Siz ishxonada emassiz"
           );
         },
         (error) => {
